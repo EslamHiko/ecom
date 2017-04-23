@@ -2,7 +2,6 @@
 
 Simple Ecommerce Built With PHP , MySQL , PDO , PayPal API
 
-Note : Admin Panel Isn't Finished Yet
 
 ### How To Run Locally 
 
