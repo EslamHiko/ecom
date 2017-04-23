@@ -2,10 +2,12 @@
     <li>
         <a href="shop.php">Shop</a>
     </li>
+ <?php if (isset($_SESSION['Username'])) {
+   echo '<li>
+          <a href="admin">Admin</a>
+         </li>';
+ } ?>
 
-    <li>
-        <a href="admin">Admin</a>
-    </li>
      <li>
         <a href="checkout.php">Checkout</a>
     </li>

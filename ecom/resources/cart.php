@@ -36,7 +36,6 @@
     redirect("../public/checkout.php");
   }
   function report(){
-
     foreach ($_SESSION as $name => $value) {
       # code...
         if ($value > 0){
