@@ -10,12 +10,14 @@ if (isset($_GET['tx'])) {
   $currency = $_GET['cc'];
   $transaction = $_GET['tx'];
   $status = $_GET['st'];
+  $date = date("d/m/Y");
+  $time = date("h:m A");
   echo '
     <h1 class="text-center">Thank You Buying From Us ^_^</h1>
   ';
-  $query = "INSERT INTO orders (Order_Amount, Order_Status, Order_Currency, Order_Transaction)
-                  Values(?,?,?,?)";
-  $args = array($amount,$status,$currency,$transaction);
+  $query = "INSERT INTO orders (Order_Amount, Order_Status, Order_Currency, Order_Transaction,Order_Date,Order_Time)
+                  Values(?,?,?,?,?,?)";
+  $args = array($amount,$status,$currency,$transaction,$date,$time);
   if(query($query,$args))
     echo '<h2 class="text-center text-success">Success</h2>';
   foreach ($_SESSION as $name => $value) {

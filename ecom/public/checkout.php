@@ -69,10 +69,7 @@
 
 </div><!-- CART TOTALS-->
 
-
  </div><!--Main Content-->
-
-
            <hr>
 
         <!-- Footer -->

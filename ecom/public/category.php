@@ -6,7 +6,7 @@
     <!-- Page Content -->
     <div class="container">
 
-        
+
 
         <hr>
 
@@ -21,8 +21,12 @@
         <!-- Cat Products -->
         <div class="row">
 
-
-            <?php get_products_by_cat(); ?>
+            <?php
+                  get_products_by_cat();
+                  if(get_Number_Of_Products_By_Cat($_GET['cat_id']) == 0){
+                    echo '<h2 class="text-center text-warning">No Products In This Category Right Now !</h2>';
+                  }
+             ?>
 
         </div>
         <!-- /.row -->
