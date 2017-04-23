@@ -19,7 +19,6 @@
                                 <thead>
                                     <tr>
                                         <th>Id</th>
-                                        <th>Photo</th>
                                         <th>Username</th>
                                         <th>First Name</th>
                                         <th>Last Name </th>
@@ -40,7 +39,6 @@
                                                 <a href="">Delete</a>
                                                 <a href="">Edit</a>
 
-
                                             </div>
                                         </td>
 
@@ -51,9 +49,6 @@
 
 
                                 <?php endforeach; ?>
-
-
-
 
                                 </tbody>
                             </table> <!--End of Table-->

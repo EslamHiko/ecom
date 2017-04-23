@@ -53,7 +53,7 @@
               <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                       
+
                         <li class="divider"></li>
                         <li>
                             <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
@@ -73,14 +73,14 @@
                     <li>
                         <a href="tables.html"><i class="fa fa-fw fa-table"></i> Add Product</a>
                     </li>
-                    
+
                     <li>
                         <a href="bootstrap-elements.html"><i class="fa fa-fw fa-desktop"></i> Categories</a>
                     </li>
                     <li>
                         <a href="bootstrap-grid.html"><i class="fa fa-fw fa-wrench"></i>Orders</a>
                     </li>
-                
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -105,7 +105,7 @@
 
 </h1>
 </div>
-               
+
 
 
 <form action="" method="post" enctype="multipart/form-data">
@@ -116,7 +116,7 @@
 <div class="form-group">
     <label for="product-title">Product Title </label>
         <input type="text" name="product_title" class="form-control">
-       
+
     </div>
 
 
@@ -138,8 +138,8 @@
 
 
 
-    
-    
+
+
 
 </div><!--Main Content-->
 
@@ -149,7 +149,7 @@
 
 <aside id="admin_sidebar" class="col-md-4">
 
-     
+
      <div class="form-group">
        <input type="submit" name="draft" class="btn btn-warning btn-lg" value="Draft">
         <input type="submit" name="publish" class="btn btn-primary btn-lg" value="Publish">
@@ -163,57 +163,23 @@
           <hr>
         <select name="product_category" id="" class="form-control">
             <option value="">Select Category</option>
-           
+
         </select>
 
 
 </div>
 
-
-
-
-
-    <!-- Product Brands-->
-
-
-    <div class="form-group">
-      <label for="product-title">Product Brand</label>
-         <select name="product_brand" id="" class="form-control">
-            <option value="">Select Brand</option>
-         </select>
-    </div>
-
-
-<!-- Product Tags -->
-
-
-    <div class="form-group">
-          <label for="product-title">Product Keywords</label>
-          <hr>
-        <input type="text" name="product_tags" class="form-control">
-    </div>
-
     <!-- Product Image -->
     <div class="form-group">
         <label for="product-title">Product Image</label>
         <input type="file" name="file">
-      
     </div>
-
 
 
 </aside><!--SIDEBAR-->
 
 
-    
 </form>
-
-
-
-                
-
-
-
             </div>
             <!-- /.container-fluid -->
 
@@ -223,17 +189,4 @@
     </div>
     <!-- /#wrapper -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Morris Charts JavaScript -->
-    <script src="js/plugins/morris/raphael.min.js"></script>
-    <script src="js/plugins/morris/morris.min.js"></script>
-    <script src="js/plugins/morris/morris-data.js"></script>
-
-</body>
-
-</html>
+<?php include 'footer.php'; ?>
